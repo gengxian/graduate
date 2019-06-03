@@ -1,0 +1,20 @@
+2019-02-09 21:31:44.592 ERROR[main]com.zaxxer.hikari.HikariConfig.setDriverClassName:493 -Failed to load driver class com.mysql.cj.jdbc.Driver from HikariConfig class classloader sun.misc.Launcher$AppClassLoader@dad5dc
+2019-02-09 21:31:44.610 ERROR[main]o.s.boot.diagnostics.LoggingFailureAnalysisReporter.report:42 -
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under '' to com.zaxxer.hikari.HikariDataSource:
+
+    Property: driverclassname
+    Value: com.mysql.cj.jdbc.Driver
+    Origin: "driverClassName" from property source "source"
+    Reason: Failed to load driver class com.mysql.cj.jdbc.Driver in either of HikariConfig class loader or Thread context classloader
+
+Action:
+
+Update your application's configuration
+

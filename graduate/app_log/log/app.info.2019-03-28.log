@@ -1,0 +1,74 @@
+2019-03-28 19:36:56.678 INFO [main]com.example.phone.PhoneApplication.logStarting:50 -Starting PhoneApplication on DESKTOP-CNBG6IH with PID 1960 (H:\peixun\target\classes started by ligengxian in H:\peixun)
+2019-03-28 19:36:56.682 INFO [main]com.example.phone.PhoneApplication.logStartupProfileInfo:675 -No active profile set, falling back to default profiles: default
+2019-03-28 19:36:58.374 INFO [main]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-28 19:36:58.374 INFO [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-28 19:36:58.410 INFO [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+2019-03-28 19:36:58.870 INFO [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$460d5b2c] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 19:36:59.326 INFO [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8080 (http)
+2019-03-28 19:36:59.346 INFO [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-03-28 19:36:59.374 INFO [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-03-28 19:36:59.374 INFO [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-03-28 19:36:59.382 INFO [main]org.apache.catalina.core.AprLifecycleListener.log:173 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\jdk1.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;E:\oracle\app\oracle\product\10.2.0\server\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.8.0_91\bin;C:\Program Files\Java\jdk1.8.0_91\jre\bin;H:\maven\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;E:\git\Git\cmd;C:\Program Files\Redis\;C:\WINDOWS\System32\OpenSSH\;C:\Python27;E:\ngrock0\ngrok1\windows_386;E:\es\elasticsearch-5.6.8\bin;JAVA_OPTS=-Xms64m -Xmx512;H:\gradle\gradle-4.1\bin;C:\Program Files\Redis;"C:\Program Files\Java\jdk1.8.0_91\bin;C:\Program Files\Java\jdk1.8.0_91\jre\bin";C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;C:\Program Files (x86)\Subversion\bin;C:\Users\ligengxian\AppData\Local\Microsoft\WindowsApps;;E:\webstrom\WebStorm 191.5701.27\bin;;.]
+2019-03-28 19:37:01.330 INFO [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-03-28 19:37:01.330 INFO [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:296 -Root WebApplicationContext: initialization completed in 4500 ms
+2019-03-28 19:37:02.478 INFO [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-28 19:37:02.934 WARN [main]o.s.b.a.freemarker.FreeMarkerAutoConfiguration.checkTemplateLocationExists:70 -Cannot find template location(s): [classpath:/templates] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-03-28 19:37:03.046 INFO [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8080"]
+2019-03-28 19:37:03.066 INFO [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Pausing ProtocolHandler ["http-nio-8080"]
+2019-03-28 19:37:03.066 INFO [main]org.apache.catalina.core.StandardService.log:173 -Stopping service [Tomcat]
+2019-03-28 19:37:03.070 INFO [main]org.apache.catalina.util.LifecycleBase.log:173 -The stop() method was called on component [StandardServer[-1]] after stop() had already been called. The second call will be ignored.
+2019-03-28 19:37:03.070 INFO [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Stopping ProtocolHandler ["http-nio-8080"]
+2019-03-28 19:37:03.070 INFO [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Destroying ProtocolHandler ["http-nio-8080"]
+2019-03-28 19:37:03.074 INFO [main]o.s.b.a.logging.ConditionEvaluationReportLoggingListener.logMessage:142 -
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-03-28 19:37:03.082 INFO [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.shutdown:208 -Shutting down ExecutorService 'applicationTaskExecutor'
+2019-03-28 19:37:42.789 INFO [main]com.example.phone.PhoneApplication.logStarting:50 -Starting PhoneApplication on DESKTOP-CNBG6IH with PID 3608 (H:\peixun\target\classes started by ligengxian in H:\peixun)
+2019-03-28 19:37:42.789 INFO [main]com.example.phone.PhoneApplication.logStartupProfileInfo:675 -No active profile set, falling back to default profiles: default
+2019-03-28 19:37:43.589 INFO [main]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:244 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2019-03-28 19:37:43.593 INFO [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:126 -Bootstrapping Spring Data repositories in DEFAULT mode.
+2019-03-28 19:37:43.617 INFO [main]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:182 -Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+2019-03-28 19:37:44.013 INFO [main]o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker.postProcessAfterInitialization:330 -Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$9e1c658e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-03-28 19:37:44.369 INFO [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:90 -Tomcat initialized with port(s): 8080 (http)
+2019-03-28 19:37:44.389 INFO [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8080"]
+2019-03-28 19:37:44.401 INFO [main]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2019-03-28 19:37:44.401 INFO [main]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.14]
+2019-03-28 19:37:44.409 INFO [main]org.apache.catalina.core.AprLifecycleListener.log:173 -The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [E:\jdk1.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;E:\oracle\app\oracle\product\10.2.0\server\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Java\jdk1.8.0_91\bin;C:\Program Files\Java\jdk1.8.0_91\jre\bin;H:\maven\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;E:\git\Git\cmd;C:\Program Files\Redis\;C:\WINDOWS\System32\OpenSSH\;C:\Python27;E:\ngrock0\ngrok1\windows_386;E:\es\elasticsearch-5.6.8\bin;JAVA_OPTS=-Xms64m -Xmx512;H:\gradle\gradle-4.1\bin;C:\Program Files\Redis;"C:\Program Files\Java\jdk1.8.0_91\bin;C:\Program Files\Java\jdk1.8.0_91\jre\bin";C:\Program Files (x86)\MySQL\MySQL Server 5.5\bin;C:\Program Files (x86)\Subversion\bin;C:\Users\ligengxian\AppData\Local\Microsoft\WindowsApps;;E:\webstrom\WebStorm 191.5701.27\bin;;.]
+2019-03-28 19:37:44.529 INFO [main]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2019-03-28 19:37:44.529 INFO [main]org.springframework.web.context.ContextLoader.prepareWebApplicationContext:296 -Root WebApplicationContext: initialization completed in 1660 ms
+2019-03-28 19:37:45.345 INFO [main]o.s.scheduling.concurrent.ThreadPoolTaskExecutor.initialize:171 -Initializing ExecutorService 'applicationTaskExecutor'
+2019-03-28 19:37:45.693 WARN [main]o.s.b.a.freemarker.FreeMarkerAutoConfiguration.checkTemplateLocationExists:70 -Cannot find template location(s): [classpath:/templates] (please add some templates, check your FreeMarker configuration, or set spring.freemarker.checkTemplateLocation=false)
+2019-03-28 19:37:45.797 INFO [main]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8080"]
+2019-03-28 19:37:45.825 INFO [main]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:204 -Tomcat started on port(s): 8080 (http) with context path ''
+2019-03-28 19:37:45.829 INFO [main]com.example.phone.PhoneApplication.logStarted:59 -Started PhoneApplication in 3.608 seconds (JVM running for 4.588)
+2019-03-28 19:38:25.161 INFO [http-nio-8080-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2019-03-28 19:38:25.161 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:524 -Initializing Servlet 'dispatcherServlet'
+2019-03-28 19:38:25.169 INFO [http-nio-8080-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:546 -Completed initialization in 8 ms
+2019-03-28 19:38:25.933 INFO [http-nio-8080-exec-2]com.zaxxer.hikari.HikariDataSource.getConnection:110 -HikariPool-1 - Starting...
+2019-03-28 19:38:26.097 INFO [http-nio-8080-exec-2]com.zaxxer.hikari.HikariDataSource.getConnection:123 -HikariPool-1 - Start completed.
+2019-03-28 19:38:26.269 INFO [http-nio-8080-exec-2]io.lettuce.core.EpollProvider.<clinit>:68 -Starting without optional epoll library
+2019-03-28 19:38:26.273 INFO [http-nio-8080-exec-2]io.lettuce.core.KqueueProvider.<clinit>:70 -Starting without optional kqueue library
+2019-03-28 20:01:05.289 INFO [lettuce-nioEventLoop-4-1]io.lettuce.core.protocol.CommandHandler.log:219 -null Unexpected exception during request: java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+java.io.IOException: 远程主机强迫关闭了一个现有的连接。
+	at sun.nio.ch.SocketDispatcher.read0(Native Method)
+	at sun.nio.ch.SocketDispatcher.read(SocketDispatcher.java:43)
+	at sun.nio.ch.IOUtil.readIntoNativeBuffer(IOUtil.java:223)
+	at sun.nio.ch.IOUtil.read(IOUtil.java:192)
+	at sun.nio.ch.SocketChannelImpl.read(SocketChannelImpl.java:380)
+	at io.netty.buffer.PooledUnsafeDirectByteBuf.setBytes(PooledUnsafeDirectByteBuf.java:288)
+	at io.netty.buffer.AbstractByteBuf.writeBytes(AbstractByteBuf.java:1132)
+	at io.netty.channel.socket.nio.NioSocketChannel.doReadBytes(NioSocketChannel.java:347)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:148)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:648)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:583)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:500)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:462)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:897)
+	at io.netty.util.concurrent.FastThreadLocalRunnable.run(FastThreadLocalRunnable.java:30)
+	at java.lang.Thread.run(Thread.java:745)
+2019-03-28 20:01:05.397 INFO [lettuce-eventExecutorLoop-1-4]io.lettuce.core.protocol.ConnectionWatchdog.log:173 -Reconnecting, last destination was /127.0.0.1:6379
+2019-03-28 20:01:06.412 WARN [lettuce-nioEventLoop-4-2]io.lettuce.core.protocol.ConnectionWatchdog.log:176 -Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:6379
+2019-03-28 20:01:10.896 INFO [lettuce-eventExecutorLoop-1-1]io.lettuce.core.protocol.ConnectionWatchdog.log:173 -Reconnecting, last destination was 127.0.0.1:6379
+2019-03-28 20:01:11.905 WARN [lettuce-nioEventLoop-4-7]io.lettuce.core.protocol.ConnectionWatchdog.log:176 -Cannot reconnect: io.netty.channel.AbstractChannel$AnnotatedConnectException: Connection refused: no further information: /127.0.0.1:6379
+2019-03-28 20:01:16.096 INFO [lettuce-eventExecutorLoop-1-5]io.lettuce.core.protocol.ConnectionWatchdog.log:173 -Reconnecting, last destination was 127.0.0.1:6379
+2019-03-28 20:01:16.100 INFO [lettuce-nioEventLoop-4-3]io.lettuce.core.protocol.ReconnectionHandler.lambda$null$3:177 -Reconnected to 127.0.0.1:6379
