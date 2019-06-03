@@ -1,0 +1,23 @@
+<view class="table">
+  <view class="tr bg-w">
+    <view class="th">标题</view>
+    <view class="th-2">操作</view>
+  </view>
+  <block wx:for="{{information}}">
+    <view class="tr bg-g" wx:if="{{index % 2 == 0}}">
+      <view class="td-1" selectable="true">{{item.food}}</view>
+      <view class="td-2" selectable="true" scroll-y="true" >
+      <!-- <text class="th-text"  style="overflow-y:auto;overflow-x:scroll" selectable="true" style='text-align:center'>查看</text> -->
+      <button bindtap='chakan' id='{{item.food}}'style='background:#E0FFFF'>查看</button>
+      </view>
+      <!--view class="td">{{item.type}}</view-->
+    </view>
+    <view class="tr bg-g2" wx:else>
+      <view class="td-1" selectable="true">{{item.food}}</view>
+      <view class="td-2" selectable="true"  scroll-y="true" >
+      <!-- <text class="th-text"  style="overflow-y:auto;overflow-x:scroll" selectable="true"style='text-align:center'>查看</text> -->
+       <button bindtap='chakan'id='{{item.food}}'style='background:#E0FFFF'>查看</button>
+     </view>
+    </view>
+  </block>
+</view>

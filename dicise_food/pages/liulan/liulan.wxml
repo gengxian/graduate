@@ -1,0 +1,9 @@
+<block wx:for="{{information}}">
+   <view class='shop' bindtap='ViewClick' data-experienceid='{{item.food}}'>
+      <image class='shop-img' src='https://ss0.bdstatic.com/94oJfD_bAAcT8t7mm9GUKT-xh_/timg?image&quality=100&size=b4000_4000&sec=1550494576&di=e37ba7a8457b4a3ce6c9f3642d92362f&src=http://hbimg.b0.upaiyun.com/92a06cf7f0c57a0ec37ec7874ee754d85f114cf32944-5LUMvi_fw658'></image>
+    <view class='shop-info'>
+    <text class='shop-title'>名称：{{item.food}}</text>
+   
+    </view>
+   </view>
+   </block>

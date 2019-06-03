@@ -1,0 +1,12 @@
+
+  <form bindsubmit="search">
+  <text class='textt' name="food">{{food}}</text>
+    <textarea placeholder="请留下你珍贵的评论(∩_∩)" name="textarea" />
+    <button formType="submit" id="{{food}}">提交</button>
+  </form>
+
+  <!-- <form bindsubmit="search">
+            <view class="search-type" bindtap="changeSearchType">{{searchType == 0 ? '菜名' : '地区'}}</view>
+            <input class="search-txt" name="keyword" auto-focus placeholder="{{searchType == 0 ? '请输入菜名，地区' : '请输入菜色类型，如：麻辣香锅、腐竹白菜焖廋肉'}}"/>
+            <button class="search-btn" formType="submit">搜索</button>
+        </form> -->

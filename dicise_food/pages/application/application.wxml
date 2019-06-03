@@ -1,0 +1,37 @@
+<!--pages/login/login.wxml-->
+<view class='container'>
+  <view class='header'>
+    <text>申请列表</text>
+  </view>
+  <form bindsubmit="formSubmit" id='{{url}}'>
+    <view class='section'>
+      <text>菜式名称：</text>
+      <input type='text' placeholder='请输入菜式' name="food" value='双皮奶'/>
+    </view>
+    <view class='section'>
+      <text>食物类型:</text>
+      <input type='text' placeholder='请输入类型（早餐等）' name="foodtype" value='早餐'/>
+    </view>
+    <view class='section'>
+      <text bindtap='ttt'data-experienceid='{{src}}'>上传图片</text>
+      <image src='{{src}}' style='width:100rpx,height:100rpx' name="url" ></image>
+     
+    </view>
+    <view class='section'>
+      <text>菜式描述</text>
+      <input type='text' placeholder='请输入描述或做法' name="description" placeholder='某某菜式如何好好好等等'/>
+    </view>
+    <view class='section'>
+      <text>属于(城市)</text>
+      <input type='text' placeholder='请输入城市名' name="belong" placeholder='如广州市'/>
+    </view>
+    <view class='section'>
+      <text>创建者</text>
+      <input type='text' placeholder='请输入名字' name="opcreate" placeholder='如李耿先'/>
+    </view>
+    <view class='button'>
+      <button type='primary' form-type='submit' id='{{url}}'>提交</button>
+    </view>
+  </form>
+</view>
+

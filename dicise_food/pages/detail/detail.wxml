@@ -1,0 +1,19 @@
+
+
+      <image class='shop-img' src='{{information.urlpath}}'></image>
+    <view class='shop-info'>
+    <text class='shop-title'>名称：{{information.food}}\n</text>
+    <text class='shop-shangjia'>类型：{{information.foodtype}}\n</text>
+    <text class='shop-time'>产地：{{information.belong}}\n</text>
+    <text class='shop-time'>做法：{{information.description}}\n</text>
+    <text class='shop-time'>创建者：{{information.opcreate}}\n</text>
+    <text class='shop-time'>创建时间：{{information.createtime}}\n</text>
+    </view>
+    <!-- <view class='shop-star'>推荐指数：{{information.oprecommend}}</view> -->
+    <view>
+    <button type='primary' bindtap='commentme' id='{{information.food}}'>我要评论</button>
+  </view>
+  <view>
+   <button type='warn' bindtap='comment' id='{{information.food}}'>评论墙</button>
+  </view>
+  

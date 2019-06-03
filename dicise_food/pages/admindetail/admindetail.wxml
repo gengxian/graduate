@@ -1,0 +1,18 @@
+
+
+      <image class='shop-img' src='{{information.urlpath}}'></image>
+    <view class='shop-info'>
+    <text class='shop-title'>名称：{{information.food}}\n</text>
+    <text class='shop-shangjia'>类型：{{information.foodtype}}\n</text>
+    <text class='shop-time'>产地：{{information.belong}}\n</text>
+    <text class='shop-time'>简述：{{information.description}}\n</text>
+    <text class='shop-time'>创建者：{{information.opcreate}}\n</text>
+    <text class='shop-time'>创建时间：{{information.createtime}}\n</text>
+    </view>
+    <view>
+    <button type='primary' bindtap='pass' id='{{information.food}}'>通过</button>
+  </view>
+  <view>
+   <button type='warn' bindtap='notpass' id='{{information.food}}'>不通过</button>
+  </view>
+  

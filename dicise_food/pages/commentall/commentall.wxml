@@ -1,0 +1,11 @@
+<block wx:for="{{information}}">
+<view>
+   <!-- <view class='shop' bindtap='ViewClick' data-experienceid='{{item.food}}'>\n -->
+      <!-- <image class='shop-img' src='{{item.urlpath}}'></image> -->
+    <view class='shop-info'>
+    <text class='shop-title'space="nbsp"> {{item.nickname}}:</text>
+    <text class='shop-shangjia'space="nbsp"> {{item.day}}\n</text>
+    <text class='shop-time'space="nbsp">       {{item.commentme}}\n\n</text>
+    </view>
+   </view>
+   </block>

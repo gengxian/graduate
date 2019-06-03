@@ -1,0 +1,61 @@
+
+<navigator
+    url="/pages/search/search"
+    hover-class="navigator-hover">
+    <view class='search'>
+        <view class='searchItem'>
+            <image src='{{searchicon}}' />
+            <input placeholder='请输入菜名，地区'></input>
+        </view>
+    </view>
+  </navigator>
+  <view class='index-nav'>
+   <navigator class='nav-item' url='/pages/jiachang/jiachang?title=0'>
+     <image src='/dist/images/jiachangcai_icon.png'></image>
+     <text>家常菜</text>
+   </navigator>
+   <navigator class='nav-item'url='/pages/jiachang/jiachang?title=1'>
+     <image src='/dist/images/jiachangcai_icon.png'></image>
+     <text>早餐</text>
+   </navigator>
+   <navigator class='nav-item'url='/pages/jiachang/jiachang?title=2'>
+     <image src='/dist/images/liangcai_icon.png'></image>
+     <text>凉菜</text>
+   </navigator>
+   <navigator class='nav-item'url='/pages/jiachang/jiachang?title=3'>
+     <image src='/dist/images/hongbei_icon.png'></image>
+     <text>烘焙</text>
+   </navigator>
+   <navigator class='nav-item'url='/pages/jiachang/jiachang?title=4'>
+     <image src='/dist/images/shoushen_icon.png'></image>
+     <text>瘦身</text>
+   </navigator>
+   <navigator class='nav-item'url='/pages/jiachang/jiachang?title=5'>
+     <image src='/dist/images/yangsheng_icon.png'url='/pages/jiachang/jiachang'></image>
+     <text>养生</text>
+   </navigator>
+   <navigator class='nav-item'url='/pages/jiachang/jiachang?title=6'>
+     <image src='/dist/images/haixian_icon.png'></image>
+     <text>海鲜</text>
+   </navigator>
+   <navigator class='nav-item'url='/pages/jiachang/jiachang?title=7'>
+     <image src='/dist/images/tang_icon.png'></image>
+     <text>靓汤</text>
+   </navigator>
+  
+  </view>
+   <block wx:for="{{information}}">
+   <view class='shop' bindtap='ViewClick' data-experienceid='{{item.food}}'>
+      <image class='shop-img' src='{{item.urlpath}}'></image>
+    <view class='shop-info'>
+    <text class='shop-title'>名称：{{item.food}}</text>
+    <text class='shop-shangjia'>类型：{{item.foodtype}}</text>
+    <text class='shop-time'>产地：{{item.belong}}</text>
+    </view>
+    <view class='shop-star'>{{item.oprecommend}}</view>
+   </view>
+   </block>
+  
+   
+    
+

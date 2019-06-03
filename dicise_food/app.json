@@ -1,0 +1,59 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/authorize/authorize",
+    "pages/delious/delious",
+    "pages/recommend/recommend",
+    "pages/search/search",
+    "pages/koubei/koubei",
+    "pages/detail/detail",
+    "pages/jiachang/jiachang",
+    "pages/searchresult/searchresult",
+    "pages/searchresult1/searchresult1",
+    "pages/liulan/liulan",
+    "pages/detailperson/detailperson",
+    "pages/manager/manager",
+    "pages/commentme/commentme",
+    "pages/commentall/commentall",
+    "pages/managerlogin/managerlogin",
+    "pages/adminmanager/adminmanager",
+    "pages/application/application",
+    "pages/admindetail/admindetail"
+
+
+
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "美食推荐",
+    "navigationBarTextStyle":"black"
+  },
+  "tabBar": {
+    "color": "#686868",
+    "selectedColor": "#47a86c",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/delious/delious",
+        "iconPath": "dist/images/food_icon.png",
+        "selectedIconPath": "dist/images/food_active_icon.png",
+        "text": "美食"
+      },
+      {
+        "pagePath": "pages/recommend/recommend",
+        "iconPath": "dist/images/recommend_icon.png",
+        "selectedIconPath": "dist/images/recommend_active_icon.png",
+        "text": "推荐"
+      },
+      
+      {
+        "pagePath": "pages/index/index",
+        "iconPath": "dist/images/people_icon.png",
+        "selectedIconPath": "dist/images/people_active_icon.png",
+        "text": "个人中心"
+      }
+    ]
+  }
+}
